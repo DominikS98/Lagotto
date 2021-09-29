@@ -1,0 +1,95 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  height: auto;
+}
+
+main {
+  margin: 7rem 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.box__miot {
+  margin: 0.5rem 1rem;
+  height: 40vh;
+  min-width: 30%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  background-color: rgba(139, 186, 20, 0.11);
+  text-align: center;
+  position: relative;
+  transition: 500ms;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.box__miot:hover {
+  box-shadow: 2px 1.2px 1px 1px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+}
+
+.box__miot h1 {
+  margin: 2rem auto;
+  padding: 0 10px;
+  text-transform: capitalize;
+}
+
+
+.box__miot h1::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 0.8px;
+  position: absolute;
+  left: 20%;
+  background: linear-gradient(
+    118deg,
+    rgba(13, 201, 209, 0.8) 0%,
+    rgba(139, 186, 20, 0.9) 50%,
+    rgba(237, 123, 20, 1) 100%
+  );
+}
+.box__miot h1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  border-width: 15px;
+  border-style: solid;
+  border-top-color: rgba(237, 123, 20, 1);
+  border-right-color: rgba(237, 123, 20, 1);
+  border-bottom-color: rgba(238, 130, 238, 0);
+  border-left-color: rgba(238, 130, 238, 0);
+}
+
+.box__miot h3{
+  text-transform: capitalize;
+}
+
+.box__miot a {
+  position: relative;
+  bottom: -40px;
+  padding: 0.5rem 5rem;
+  border: 1px solid black;
+  border-radius: 50px;
+  transition: 500ms;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2rem;
+  text-transform: lowercase;
+}
+.box__miot a:hover {
+  background-color: rgba(237, 123, 20, 1);
+  color: white;
+  opacity: 1;
+}
+
