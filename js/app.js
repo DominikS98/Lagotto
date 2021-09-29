@@ -7,6 +7,14 @@ const boxSubmenu = document.querySelector('.box__submenu');
 const psyToggleMenu = document.querySelector('.psy__toggle__menu');
 const psySubmenu = document.querySelector('.psysubmenu');
 const psyBoxSubmenu = document.querySelector('.Psy__box__submenu');
+const cokie = document.querySelector(".cookie--arg");
+
+const cookieOff = () => {
+    const cokieBox = document.querySelector(".cookie");
+
+    cokieBox.classList.add('cookie--off');
+}
+cokie.addEventListener('click', cookieOff);
 
 toggle.addEventListener('click', () => {
     menuBox.classList.toggle('menuOn');
