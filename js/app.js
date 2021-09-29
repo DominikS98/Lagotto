@@ -16,6 +16,7 @@ const cookieOff = () => {
 }
 cokie.addEventListener('click', cookieOff);
 
+
 toggle.addEventListener('click', () => {
     menuBox.classList.toggle('menuOn');
 })
