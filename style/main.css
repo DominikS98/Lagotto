@@ -84,7 +84,7 @@ footer {
 }
 @keyframes textAnimation {
   to {
-    transform: translateX(45%);
+    transform: translateX(25%);
   }
 }
 @keyframes MtextAnimation {
