@@ -69,11 +69,11 @@ footer {
   width: 150px;
   height: 100px;
   transform: translateX(1000%);
-  animation: dogAnimation 13s ease-in forwards;
+  animation: dogAnimation 10s ease-in forwards;
 }
 .pasek h2 {
   text-align: center;
-  transform: translateX(120%);
+  transform: translateX(100%);
   animation: textAnimation 10s 0.5s ease-in-out forwards;
 }
 
