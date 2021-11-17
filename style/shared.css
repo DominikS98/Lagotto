@@ -194,7 +194,7 @@ footer p a:hover {
   color: #ed7914d0;
   cursor: pointer;
 }
-.cookie {
+.cookieBox {
   align-items: center;
   background-color: #ed79148c;
   bottom: 0;
@@ -204,20 +204,20 @@ footer p a:hover {
   justify-content: center;
   position: fixed;
   width: 100%;
-  z-index: 5;
+  z-index: 10;
 }
-.cookie p {
+.cookieBox p {
   margin: 0.2rem;
 }
-.cookie a {
+.cookieBox a {
   background-color: black;
   color: ed7914d0;
   cursor: pointer;
   margin-left: 1rem;
   padding: 0.5rem;
 }
-.cookie a:hover,
-.cookie a:focus {
+.cookieBox a:hover,
+.cookieBox a:focus {
   color: #ed7914d0;
   background: white;
 }
