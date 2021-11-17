@@ -73,8 +73,8 @@ footer {
 }
 .pasek h2 {
   text-align: center;
-  transform: translateX(320%);
-  animation: textAnimation 12s 0.5s ease-in-out forwards;
+  transform: translateX(120%);
+  animation: textAnimation 10s 0.5s ease-in-out forwards;
 }
 
 @keyframes dogAnimation {
