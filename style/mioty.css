@@ -102,6 +102,9 @@ main {
     rgba(237, 123, 20, 0.2) 100%
   );
 }
+.hidden{
+  visibility: hidden;
+}
 @media (max-width: 900px) {
   main {
     margin-top: 7rem;
