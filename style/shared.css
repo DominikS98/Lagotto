@@ -224,6 +224,10 @@ footer p a:hover {
 .cookie--off {
   display: none;
 }
+
+.high-red{
+  color: red;
+}
 @media (min-width: 900px) {
   #span__div {
     display: none;
